@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-gray-200 font-sans leading-normal tracking-normal text-xl;
+}
+.header-menu__list{
+  @apply flex flex-col absolute top-12 right-0 bg-gray-800 text-white p-0 shadow-lg rounded;
+}
+.header-menu__item{
+  @apply hover:bg-gray-700;
+}
+.header-menu__button{
+@apply px-3 py-2 hover:text-gray-200 w-full;
+}

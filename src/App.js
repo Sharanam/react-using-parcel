@@ -1,6 +1,10 @@
-import "./index.css";
+import Header from './components/common/header/Header';
+import './assets/main.css';
+
 export function App() {
-    return <h1 className="text-blue-500 underline" >
-        Hello world!
-    </h1>;
+    return (
+        <>
+            <Header />
+        </>
+    )
 }
